@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <script src="https://cdn.jsdelivr.net/gh/Alken123/youtube-to-html5-loader@main/dist/YouTubeToHtml5.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://static.bocoup.com/js/popcorn.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="videocontainer">
+      <div class="video-player">
+        <video id="video" style="width: 800px;" class="youtube-video-1" data-yt="https://www.youtube.com/watch?v=Amq-qlqbjYA" muted></video>
+        <audio id="narration" class="youtube-video-2" data-yt="https://www.youtube.com/watch?v=Amq-qlqbjYA"></audio>
+      </div>
+      <div class="video-controls">
+        <button id="play-pause" onclick="enableMute()" type="button">Play / Pause</button>
+        <button id="mute" onclick="enableMute()" type="button">Mute</button>
+        <div id="custom-seekbar">
+          <span></span>
+        </div>
+        <select onchange="qualitysync()" id="streams" disabled></select>
+      </div>
+    </div>
+    <div class="test">
+      <video src="https://www.youtube.com/embed/bwmSjveL3Lc?html5=1"></video>
+    </div>
+    <script src="/controls.js"></script>
+    <script src="/sync-play.js"></script>
+    <script src="/youtube-player.js"></script>
+  </body>
+</html>
