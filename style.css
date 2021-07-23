@@ -2,28 +2,20 @@
    width: 100%;
 }
 
-.video-player {
-   float: left;
-}
-
-.video-controls {
-   float:left; 
-   clear: left;
-}
-
 #custom-seekbar
 {  
+  margin-top: 20px;
   cursor: pointer;
   height: 10px;
   margin-bottom: 10px;
-  outline: thin solid orange;
+  outline: thin solid #14dca0;
   overflow: hidden;
   position: relative;
   width: 400px;
 }
 #custom-seekbar span
 {
-  background-color: orange;
+  background-color: #14dca0;
   position: absolute;
   top: 0;
   left: 0;
