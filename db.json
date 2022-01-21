@@ -1,0 +1,17 @@
+{
+  "domain": {
+    "url": "https://sugoia.sugoiofficial24.workers.dev/0:"
+  },
+  "movies": [
+    {
+      "tmdb_id": 63174,
+      "title": "Luca"
+    }
+  ],
+  "series": [
+    {
+      "tmdb_id": 63174,
+      "title": "Lucifer"
+    }
+  ]
+}
